@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ayush Jyala — Full-Stack Developer &amp; Competitive Programmer</title>
+<meta name="description" content="Ayush Jyala — Full-stack developer, competitive programmer, and UI/UX enthusiast. BTech CS student at NST, building Trip Sync and climbing the CP ladder.">
+
+<!-- Favicon: inline SVG monogram "AJ" -->
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230a0e14'/%3E%3Ctext x='32' y='42' font-family='monospace' font-size='26' font-weight='700' fill='%2300d2ff' text-anchor='middle'%3EAJ%3C/text%3E%3C/svg%3E">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+
+<script type="module" src="/src/main.js"></script>
+</head>
+<body>
+
+<div class="grid-bg"></div>
+<div class="noise-bg"></div>
+<div class="glow glow-1"></div>
+<div class="glow glow-2"></div>
+<div class="glow glow-3"></div>
+
+<header class="nav">
+  <div class="nav-inner">
+    <a href="#top" class="nav-mark"><span class="dot"></span>ayush.jyala</a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#cp">CP</a>
+      <a href="#project">Project</a>
+      <a href="#resume">Resume</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="#contact" class="nav-cta">Get in touch</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ================= HERO ================= -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div class="reveal in">
+        <span class="hero-eyebrow">// full-stack developer &amp; competitive programmer</span>
+        <h1>Building things that <span class="hl">work</span>, one commit at a time.</h1>
+        <p class="hero-tagline">2nd-yr BTech CS @ NST <span class="sep">/</span> Codeforces Pupil <span class="sep">/</span> CodeChef 2★</p>
+        <div class="hero-actions">
+          <a href="#project" class="btn btn-primary">View Featured Project</a>
+          <a href="https://www.linkedin.com/in/ayushjyala/" target="_blank" rel="noopener" class="btn btn-outline">Connect on LinkedIn</a>
+        </div>
+      </div>
+
+      <div class="terminal-wrap reveal in hero-visual-zone" id="heroVisual">
+        <div class="mouse-glow"></div>
+        <div class="terminal">
+          <div class="terminal-bar">
+            <span></span><span></span><span></span>
+            <span class="path">~/ayush-jyala/whoami.sh</span>
+          </div>
+          <div class="terminal-body">
+            <div class="avatar-block">╭────────╮
+│  A  J  │
+╰────────╯</div>
+            <div class="terminal-line"><span class="prompt">$</span><span class="val">whoami</span></div>
+            <div class="terminal-line">&gt; Ayush Jyala, 19</div>
+            <div class="terminal-line">&gt; 2nd-yr BTech CS @ Newton School of Technology</div>
+            <div class="terminal-line"><span class="prompt">$</span><span class="val">status</span></div>
+            <div class="terminal-line">&gt; open to internships<span class="terminal-cursor"></span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= ABOUT ================= -->
+  <section id="about">
+    <div class="wrap reveal">
+      <span class="eyebrow">01 · About</span>
+      <h2 class="section-title">A bit about the <span class="grad">person behind the commits</span></h2>
+      <div class="about-layout" style="margin-top:32px;">
+        <div class="about-mono" aria-hidden="true">AJ</div>
+        <div class="about-text">
+          <p>Ayush is a <strong>2nd-year BTech Computer Science student at Newton School of Technology</strong>, spending most of his time somewhere between a Codeforces editorial and a half-finished side project.</p>
+          <p>He's most comfortable in <strong>Python</strong>, sharpens problem-solving through <strong>DSA and competitive programming</strong>, and enjoys the full loop of building a product — from a rough Figma sketch to a working, deployed app.</p>
+          <p>Currently looking for an <strong>internship</strong> where he can learn fast, ship real features, and keep climbing the leaderboard on the side.</p>
+          <div class="about-tags">
+            <span>Python</span><span>C++</span><span>JavaScript</span><span>Node.js</span><span>Figma</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SKILLS ================= -->
+  <section id="skills">
+    <div class="wrap reveal">
+      <span class="eyebrow">02 · Skills</span>
+      <h2 class="section-title">Toolkit</h2>
+      <p class="section-sub">Languages, tools, and the softer skills that hold a team together.</p>
+      <div class="skills-grid reveal-stagger in">
+        <div class="skill-card">
+          <h3>Languages</h3>
+          <div class="pill-list">
+            <span class="pill top">Python</span>
+            <span class="pill">C++</span>
+            <span class="pill">JavaScript</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <h3>Web Dev</h3>
+          <div class="pill-list">
+            <span class="pill">HTML</span>
+            <span class="pill">CSS</span>
+            <span class="pill">JavaScript</span>
+            <span class="pill">Node.js</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <h3>Design</h3>
+          <div class="pill-list">
+            <span class="pill">Figma</span>
+            <span class="pill">UI/UX</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <h3>Soft Skills</h3>
+          <div class="pill-list">
+            <span class="pill">Team Leadership</span>
+            <span class="pill">Project Management</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= COMPETITIVE PROGRAMMING ================= -->
+  <section id="cp">
+    <div class="wrap reveal">
+      <span class="eyebrow">03 · Competitive Programming</span>
+      <h2 class="section-title">Ratings &amp; rankings</h2>
+      <p class="section-sub">DSA practice across platforms, aggregated in one place.</p>
+
+      <div class="cp-grid">
+        <div class="cp-card cf">
+          <span class="platform">Codeforces</span>
+          <span class="rating">Pupil</span>
+          <span class="rating-label">Rated competitive programmer</span>
+          <a class="card-link" href="https://codolio.com/profile/ayushjyala" target="_blank" rel="noopener">View live rating →</a>
+        </div>
+        <div class="cp-card cc">
+          <span class="platform">CodeChef</span>
+          <span class="rating">2★</span>
+          <span class="rating-label">Two-star rated coder</span>
+          <a class="card-link" href="https://codolio.com/profile/ayushjyala" target="_blank" rel="noopener">View live rating →</a>
+        </div>
+      </div>
+
+      <div class="cp-foot">
+        <p class="cp-note">This snapshot aggregates LeetCode, Codeforces, CodeChef, and GitHub activity in one profile via Codolio.</p>
+        <a href="https://codolio.com/profile/ayushjyala" target="_blank" rel="noopener" class="btn btn-primary">View Full Coding Profile ↗</a>
+      </div>
+
+      <div class="ghchart-wrap">
+        <p class="ghchart-label">GitHub contribution activity</p>
+        <!-- If this chart doesn't load, comment out the <img> below -->
+        <img src="https://ghchart.rshah.org/00d2ff/ayushjyala" alt="Ayush Jyala's GitHub contribution graph" loading="lazy"
+             onerror="this.parentElement.style.display='none'">
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FEATURED PROJECT ================= -->
+  <section id="project">
+    <div class="wrap reveal">
+      <span class="eyebrow">04 · Featured Project</span>
+      <h2 class="section-title">Trip Sync</h2>
+      <p class="section-sub">AI-powered travel planning platform.</p>
+
+      <div class="project-card">
+        <div class="project-visual" aria-hidden="true">
+          <svg viewBox="0 0 800 260" preserveAspectRatio="xMidYMid slice">
+            <defs>
+              <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#0d1420"/>
+                <stop offset="100%" stop-color="#141b28"/>
+              </linearGradient>
+            </defs>
+            <rect width="800" height="260" fill="url(#skyGrad)"/>
+            <circle cx="640" cy="70" r="46" fill="#00d2ff" opacity="0.15"/>
+            <path d="M0 200 Q 150 150 300 190 T 600 180 T 800 200 V260 H0 Z" fill="#111a26" stroke="#1c2733" stroke-width="1"/>
+            <path d="M0 220 Q 200 190 400 215 T 800 210 V260 H0 Z" fill="#0d141e"/>
+            <g stroke="#00d2ff" stroke-width="1.4" opacity="0.55" stroke-dasharray="6 6">
+              <path d="M60 210 C 220 60, 420 240, 560 90 S 760 60, 760 60" fill="none"/>
+            </g>
+            <g fill="#00d2ff">
+              <circle cx="60" cy="210" r="5"/>
+              <circle cx="360" cy="150" r="5"/>
+              <circle cx="760" cy="60" r="5"/>
+            </g>
+            <g fill="#7c5cff" opacity="0.85">
+              <circle cx="130" cy="95" r="2.5"/>
+              <circle cx="500" cy="60" r="2"/>
+              <circle cx="690" cy="150" r="2.5"/>
+              <circle cx="240" cy="70" r="2"/>
+            </g>
+          </svg>
+        </div>
+        <div class="project-body">
+          <h3>Trip Sync — AI-Powered Travel Planning Platform</h3>
+          <span class="project-role">Team Lead &amp; Full-Stack Developer</span>
+
+          <div class="case-grid">
+            <div class="case-item">
+              <div class="label">Problem</div>
+              <p>Planning a trip usually means fifty open tabs, scattered notes, and hours lost comparing options — travel planning is cluttered and time-consuming.</p>
+            </div>
+            <div class="case-item">
+              <div class="label">Solution</div>
+              <p>A web platform that uses AI to generate personalized, ready-to-use travel itineraries in minutes, replacing manual research with a guided flow.</p>
+            </div>
+            <div class="case-item">
+              <div class="label">My Role</div>
+              <p>Led a small team as Team Lead, managed code merges and reviews, and designed the interface end-to-end in Figma before development.</p>
+            </div>
+            <div class="case-item">
+              <div class="label">Outcome</div>
+              <p>Delivered a functional MVP that received positive user feedback, and picked up hands-on lessons in team coordination and shipping under deadline.</p>
+            </div>
+          </div>
+
+          <div class="tech-row">
+            <span class="pill">Node.js</span>
+            <span class="pill">HTML/CSS/JS</span>
+            <span class="pill">AI Integration</span>
+          </div>
+
+          <div class="project-actions">
+            <!-- Replace # with your actual GitHub repo / live link -->
+            <a href="#" target="_blank" rel="noopener" class="btn btn-primary">View on GitHub ↗</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Optional: smaller project grid — replace with your real repos -->
+      <div class="proj-mini-grid">
+        <div class="mini-card">
+          <h4>Project Two</h4>
+          <p>Short description of a smaller build — swap in one of your GitHub repos here.</p>
+          <a href="#" target="_blank" rel="noopener">View repo ↗</a>
+        </div>
+        <div class="mini-card">
+          <h4>Project Three</h4>
+          <p>Short description of a smaller build — swap in one of your GitHub repos here.</p>
+          <a href="#" target="_blank" rel="noopener">View repo ↗</a>
+        </div>
+        <div class="mini-card">
+          <h4>Project Four</h4>
+          <p>Short description of a smaller build — swap in one of your GitHub repos here.</p>
+          <a href="#" target="_blank" rel="noopener">View repo ↗</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= RESUME ================= -->
+  <section id="resume">
+    <div class="wrap reveal">
+      <span class="eyebrow">05 · Resume</span>
+      <h2 class="section-title">Take it with you</h2>
+      <div class="resume-box">
+        <div class="left">
+          <div class="resume-icon" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+              <path d="M14 2v6h6"/>
+            </svg>
+          </div>
+          <div>
+            <h3>Resume — Ayush Jyala</h3>
+            <p>One-page PDF. Updated regularly.</p>
+          </div>
+        </div>
+        <!-- Replace href with a real hosted resume PDF, e.g. /assets/resume.pdf -->
+        <a href="resume-placeholder.pdf" download class="btn btn-primary">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v12m0 0l-5-5m5 5l5-5M4 21h16"/></svg>
+          Download Resume
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CONTACT ================= -->
+  <section id="contact">
+    <div class="wrap reveal">
+      <span class="eyebrow">06 · Contact</span>
+      <h2 class="section-title">Let's talk</h2>
+      <p class="section-sub">Open to internships, collaborations, and interesting problems.</p>
+
+      <div class="contact-grid">
+        <form id="contactForm" action="https://formspree.io/f/{your-form-id}" method="POST">
+          <!-- ⚠️ Replace {your-form-id} above with your real Formspree endpoint, e.g. https://formspree.io/f/abcdwxyz -->
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+          <p class="form-status" id="formStatus"></p>
+        </form>
+
+        <div class="connect-card">
+          <h3>Prefer to connect on LinkedIn</h3>
+          <p>The form above goes straight to Ayush's inbox without exposing an email address anywhere on this page. LinkedIn works just as well.</p>
+          <a href="https://www.linkedin.com/in/ayushjyala/" target="_blank" rel="noopener" class="btn btn-outline">
+            Connect on LinkedIn ↗
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap footer-inner">
+    <span>© <span id="year"></span> Ayush Jyala. All rights reserved.</span>
+    <span>Built with ❤️ by Ayush</span>
+  </div>
+</footer>
+
+<button id="toTop" aria-label="Scroll to top">
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+</button>
+
+</body>
+</html>
